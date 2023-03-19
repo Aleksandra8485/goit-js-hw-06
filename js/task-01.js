@@ -2,7 +2,9 @@
 const categoryList = document.querySelectorAll(`li.item`);
 console.log(`Number of categories: ${categoryList.length}`);
 
-//Dla każdego elementu li.item na liście ul#categories, znajdź i wprowadż tekst nagłówka elementu (tag <h2>) i liczbę elementów w kategorii (wszystkich <li>)
+//Dla każdego elementu li.item na liście ul#categories,
+//znajdź i wprowadż tekst nagłówka elementu (tag <h2>)
+//i liczbę elementów w kategorii (wszystkich <li>)
 console.log(`Category: ${categoryList[0].firstElementChild.textContent}`);
 console.log(`Elements: ${categoryList[0].lastElementChild.children.length}`);
 
