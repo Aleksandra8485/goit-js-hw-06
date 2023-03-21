@@ -26,3 +26,18 @@ for (const image of images) {
 photos.style.display = "flex";
 photos.style.flexWrap = "wrap";
 photos.style.listStyle = "none";
+
+//drugie rozwiązanie z map i innerHTML
+//document.body.innerHTML = images.map((image) => `<img src=${image.url} alt=${image.alt} />`).join("");
+
+//trzecie rozwiązanie
+//const gallery = document.querySelector('.gallery')
+// gallery.insertAdjacentHTML(
+//   'beforeend',
+//   images
+//     .map(
+//       (item) =>
+//         <li><img class="gallery__item" src="${item.url}" alt="${item.alt}"/></li>
+//     )
+//     .join('')
+// )
