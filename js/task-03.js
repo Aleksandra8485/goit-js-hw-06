@@ -27,10 +27,10 @@ photos.style.display = "flex";
 photos.style.flexWrap = "wrap";
 photos.style.listStyle = "none";
 
-//drugie rozwiązanie z map i innerHTML
+//2 rozwiązanie z map i innerHTML
 //document.body.innerHTML = images.map((image) => `<img src=${image.url} alt=${image.alt} />`).join("");
 
-//trzecie rozwiązanie
+//3 rozwiązanie
 //const gallery = document.querySelector('.gallery')
 // gallery.insertAdjacentHTML(
 //   'beforeend',
@@ -41,3 +41,23 @@ photos.style.listStyle = "none";
 //     )
 //     .join('')
 // )
+
+// 4 rozwiązanie
+// const photo = document.querySelectorAll("images");
+// for (const image of images) {
+// document.body.innerHTML = images.map(
+//  (image) =>
+// <img style="width: 500px; display: flex"src=${image.url} alt${image.alt} />
+// );
+// photo.insertAdjacentHTML("afterBegin", images);
+// }
+
+//5 rozwiązanie
+// images.forEach((item) => {
+//   gallery.insertAdjacentHTML(
+//     "beforeend",
+//     <li>
+//       <img class="gallery__item" src="${item.url}" alt="${item.alt}" />
+//     </li>
+//   );
+// });
