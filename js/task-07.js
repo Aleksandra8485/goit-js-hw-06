@@ -12,7 +12,7 @@ inputEl.addEventListener("input", function () {
 //   textEl.style.fontSize = fontSizeControlEl.value + "px";
 //   console.log(textEl.style.fontSize);
 // };
-//------------------------------------------------
+
 // const inputEl = document.querySelector("#font-size-control");
 // const textEl = document.querySelector("#text");
 
