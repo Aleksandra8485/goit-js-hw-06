@@ -27,4 +27,5 @@ console.log(ul);
 //li.textContent = ingredient;
 //3)Dodać do elementu klasę item.
 //elem.classList.add(cls)=>ul.classList.add("item");
-//4)Po czym umieści wszystkie <li> na liście podczas jednej operacji ul#ingredients.
+//4)Po czym umieści wszystkie <li> na liście
+//podczas jednej operacji ul#ingredients.
