@@ -9,11 +9,11 @@ decrementCount.addEventListener("click", () => {
   // wartość decrement = spada o 1 po kliknieciu
   counterValue--;
   //przypisanie wartości totalValue do DOM
-  totalValue.innerHTML = counterValue--;
+  totalValue.innerHTML = counterValue;
 });
 // wartość decrement = rośnie o 1 po kliknieciu
 incrementCount.addEventListener("click", () => {
   counterValue++;
   //przypisanie wartości totalValue do DOM
-  totalValue.innerHTML = counterValue++;
+  totalValue.innerHTML = counterValue;
 });
